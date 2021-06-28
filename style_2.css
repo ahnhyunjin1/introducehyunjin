@@ -1,0 +1,45 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+h1 , p{
+    margin : 0;
+}
+#main{
+    background-image: 
+    url(https://pixabay.com/get/g6b584e9272a688ee29936c05e984821c2bd204c0a548b17f466a540331dc0f0a896bdea51461142c324af0c72b3f13d0_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    width:100vw;
+    height: 100vh;
+}
+#header{
+    font-size: 30px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    animation-name: slidein;
+    animation-duration:2s;
+    animation-duration: leaner;
+    animation-iteration-count:1;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;
+
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+#img{
+    background-image: url("./aboutme");
+}
