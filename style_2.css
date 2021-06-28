@@ -41,5 +41,7 @@ h1 , p{
     }
 
 #img{
-    background-image: url("./aboutme");
+    position: absolute;
+    width: 358px;
+    height: 460px;
 }
